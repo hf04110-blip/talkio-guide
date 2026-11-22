@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>دليل ثيم ديجيتال تالكيو</title>
+<meta name="description" content="دليل إعداد ثيم ديجيتال تالكيو لمتاجر المنتجات الرقمية على سلة: المنتجات والفئات والمناطق والأقسام والإعدادات.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d0a1f;--card:#17132e;--line:#2a2449;--text:#f1efff;--muted:#9b96bd;--a:#a78bfa;--b:#22d3ee;--flash:#5ff0c3}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"IBM Plex Sans Arabic",Tahoma,sans-serif;line-height:1.9;font-size:17px}
+header{padding:56px 16px 40px;text-align:center;background:radial-gradient(800px 300px at 50% 0,rgba(108,43,217,.35),transparent)}
+header h1{margin:0 0 8px;font-size:clamp(28px,5vw,42px);background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+header p{margin:0 auto;max-width:640px;color:var(--muted)}
+nav{max-width:860px;margin:0 auto 8px;padding:0 16px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+nav a{color:var(--a);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 14px;font-size:14px}
+main{max-width:860px;margin:0 auto;padding:16px 16px 64px}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:20px 0}
+h2{margin:0 0 10px;color:var(--a);font-size:24px}
+h3{margin:22px 0 6px;font-size:19px}
+b,strong{color:#fff}
+ol,ul{padding-inline-start:22px}
+.tip{border-inline-start:3px solid var(--flash);padding:6px 12px;background:rgba(95,240,195,.07);border-radius:8px}
+.table{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:12px 0}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:right;vertical-align:top}
+th{background:#1f1a3d;color:var(--a)}
+a{color:var(--b)}
+footer{text-align:center;color:var(--muted);font-size:14px;padding:0 16px 40px}
+</style>
+</head>
+<body>
+<header>
+  <h1>دليل ثيم ديجيتال تالكيو</h1>
+  <p>ثيم متخصص لمتاجر المنتجات الرقمية: بطاقات الألعاب والمتاجر، الشحن بمعرّف اللاعب، الاشتراكات، والدورات والملفات. هذا الدليل يجهّز متجرك خطوة بخطوة دون برمجة.</p>
+</header>
+<nav>
+  <a href="#start">البدء</a><a href="#products">تسمية المنتجات</a><a href="#home">الصفحة الرئيسية</a><a href="#product">صفحة المنتج</a><a href="#settings">الإعدادات</a><a href="#images">مقاسات الصور</a><a href="#faq">الأسئلة والدعم</a>
+</nav>
+<main>
+<section id="start">
+  <h2>البدء: التثبيت والتفعيل</h2>
+  <ol>
+    <li>من لوحة تحكم سلة افتح <b>المتجر الإلكتروني ← الثيمات</b>.</li>
+    <li>ستجد «ديجيتال تالكيو» ضمن ثيماتك، اضغط <b>تخصيص</b> لتجربته قبل التفعيل.</li>
+    <li>عدّل الأقسام والإعدادات، ثم اضغط <b>تفعيل</b>.</li>
+  </ol>
+  <p class="tip">نصيحة: أضف منتجاتك أولاً بنوع <b>بطاقة رقمية</b> (للأكواد) أو <b>منتج رقمي</b> (للملفات والدورات)، فالثيم يقرأ منها المنصة والمنطقة والقيمة تلقائياً.</p>
+</section>
+
+<section id="products">
+  <h2>تسمية المنتجات (مهم)</h2>
+  <p>في سلة كل فئة من البطاقة الرقمية منتج مستقل بأكواده. الثيم يجمع فئات المنصة الواحدة ويعرضها للعميل كأزرار «اختر القيمة» إذا كتبت الاسم بهذا الشكل:</p>
+  <p><b>[المنصة] [القيمة] - [المنطقة]</b>، مثل: «بطاقة بلايستيشن 50 دولار - المتجر الأمريكي»</p>
+  <div class="table"><table>
+    <tr><th>الجزء</th><th>أمثلة يفهمها الثيم</th></tr>
+    <tr><td>المنصة</td><td>بلايستيشن، إكس بوكس، ستيم، نينتندو، آيتونز / App Store، جوجل بلاي، نتفليكس، سبوتيفاي، شاهد، ببجي، فري فاير (بالعربي أو الإنجليزي)</td></tr>
+    <tr><td>القيمة</td><td>50 دولار، $50، 100 ريال، 660 UC، 3 أشهر</td></tr>
+    <tr><td>المنطقة</td><td>المتجر الأمريكي، السعودي، الإماراتي، الكويتي، البريطاني، التركي، عالمي</td></tr>
+  </table></div>
+  <ul>
+    <li>الأفضل أن تضع منتجات المنصة الواحدة في <b>ماركة تجارية</b> أو <b>تصنيف</b> واحد، ليجمعها الثيم أسرع.</li>
+    <li>لشحن الألعاب بالمعرّف (ببجي، فري فاير): فعّل «إتاحة كتابة ملاحظة» أو أضف خياراً نصياً باسم «معرّف اللاعب (ID)»، ويُظهر الثيم تنبيه التأكد من المعرّف تلقائياً.</li>
+  </ul>
+</section>
+
+<section id="home">
+  <h2>أقسام الصفحة الرئيسية</h2>
+  <div class="table"><table>
+    <tr><th>القسم</th><th>ماذا يعرض</th></tr>
+    <tr><td>ديجيتال: الواجهة الرئيسية</td><td>عنوان وزران وطرق الدفع وحتى 3 بطاقات متراكبة. ارسم البطاقة بالاسم والقيمة واللون، أو ارفع صورتها.</td></tr>
+    <tr><td>ديجيتال: تسوّق حسب المنصة</td><td>مربع ملوّن لكل منصة مع رابط تصنيفها وشعار وملاحظة مثل «يبدأ من 39 ر.س». ألوان المنصات المعروفة تُختار تلقائياً.</td></tr>
+    <tr><td>منتجات مميزة</td><td>تبويبات منتجات (الأحدث، الأكثر مبيعاً، تصنيف...) ببطاقات على شكل بطاقة شحن.</td></tr>
+    <tr><td>ديجيتال: عرض اليوم</td><td>منتج واحد تختاره بسعره وخصمه الحقيقيين من سلة.</td></tr>
+    <tr><td>ديجيتال: كيف يصلك طلبك</td><td>3 خطوات تطمئن العميل أن الطلب يصل أونلاين بلا شحن.</td></tr>
+    <tr><td>ديجيتال: شارات الثقة</td><td>4 شارات وسطر شارات صغيرة (التوثيق، معروف، طرق الدفع). اكتب فقط ما ينطبق على متجرك.</td></tr>
+    <tr><td>الأسئلة الشائعة، آراء العملاء، الماركات، الفيديو...</td><td>أقسام عامة مشتركة.</td></tr>
+  </table></div>
+</section>
+
+<section id="product">
+  <h2>صفحة المنتج</h2>
+  <ul>
+    <li><b>اختر القيمة:</b> أزرار بفئات نفس المنصة والمنطقة مع سعر كل فئة.</li>
+    <li><b>تنبيه المنطقة:</b> «هذه البطاقة تعمل فقط على حسابات المتجر الأمريكي» إذا كانت المنطقة في الاسم.</li>
+    <li><b>مربع التسليم الفوري</b> بدل الشحن للمنتجات الرقمية.</li>
+    <li><b>«الكود ما اشتغل؟»</b> مع زر واتساب برسالة جاهزة فيها اسم المنتج.</li>
+    <li><b>تبويب طريقة الاسترداد</b> بخطوات جاهزة لكل منصة، وتبويب <b>سياسة الاستبدال</b>.</li>
+  </ul>
+</section>
+
+<section id="settings">
+  <h2>الإعدادات العامة</h2>
+  <ul>
+    <li><b>لوحة الألوان:</b> بنفسجي رقمي (فاتح)، قيمر نيون (داكن)، فيروزي، أو لون هوية متجرك. ويمكنك تخصيص كل لون يدوياً.</li>
+    <li><b>شعار الثيم:</b> شعار اختياري يظهر بدل شعار المتجر.</li>
+    <li><b>المنتجات الرقمية:</b> شارة التسليم الفوري، تنبيه المنطقة، نصوص مربع التسليم، 3 شارات ثقة، مربع «الكود ما اشتغل؟» ورقم واتساب، دليل الاسترداد، ونص سياسة الاستبدال.</li>
+    <li>السلة الجانبية، العرض السريع، شريط التنقل السفلي، والتقسيط (تابي وتمارا).</li>
+  </ul>
+</section>
+
+<section id="images">
+  <h2>مقاسات الصور الموصى بها</h2>
+  <div class="table"><table>
+    <tr><th>الصورة</th><th>المقاس</th></tr>
+    <tr><td>صورة المنتج (بطاقة)</td><td>نسبة بطاقة 1.586:1، مثل 1586×1000 بكسل</td></tr>
+    <tr><td>بطاقات الواجهة</td><td>950×600 بكسل</td></tr>
+    <tr><td>شعار المنصة</td><td>PNG أبيض بخلفية شفافة 128×128</td></tr>
+  </table></div>
+</section>
+
+<section id="faq">
+  <h2>أسئلة شائعة والدعم الفني</h2>
+  <h3>لماذا لا تظهر أزرار «اختر القيمة»؟</h3>
+  <p>تأكد أن أسماء الفئات تحتوي المنصة والقيمة ونفس المنطقة، وأن لديك فئتين على الأقل.</p>
+  <h3>هل يعمل الثيم مع المنتجات الملموسة؟</h3>
+  <p>نعم، لكنه مصمم للمنتجات الرقمية؛ مربع الشحن يظهر فقط للمنتجات التي تحتاج شحناً.</p>
+  <h3>الدعم</h3>
+  <p>البريد: <a href="mailto:info@talkioo.com">info@talkioo.com</a> · واتساب: <a href="https://wa.me/966541698964">966541698964</a> · <a href="https://talkioo.com">talkioo.com</a></p>
+</section>
+</main>
+<footer>ديجيتال تالكيو — من تالكيو</footer>
+</body>
+</html>
